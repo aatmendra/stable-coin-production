@@ -1,0 +1,47 @@
+/* Orbit.module.css */
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-32px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.floatingAnimation {
+	animation: floating 3s ease-in-out infinite;
+}
+
+.fadeInUp {
+	animation: fadeInUp 1s ease-out forwards,
+		floating 3s ease-in-out infinite 1s;
+}
+
+.fadeInUpSlow {
+	animation: fadeInUp 2s ease-out forwards,
+		floating 3s ease-in-out infinite 2s; /* Start floating after 2 seconds */
+}
+
+.fadeInUpFast {
+	animation: fadeInUp 0.5s ease-out forwards,
+		floating 3s ease-in-out infinite 0.5s; /* Start floating after 0.5 seconds */
+}
+
+.orbitImage {
+	transition: opacity 1s ease-out;
+}
