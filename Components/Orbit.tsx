@@ -55,9 +55,9 @@ export default function Orbit() {
 	}, []);
 
 	return (
-		<div className="mt-12 mb-16 sm:mt-24 md:mt-48 md:mb-44">
+		<div className="mt-12  mb-0 sm:mt-24 md:mt-48 md:mb-44">
 			<SvgBackground>
-				<div className="flex mb-10 sm:mb-20 items-center justify-center">
+				<div className="flex mb-28 sm:mb-20 items-center justify-center">
 					<Image
 						ref={orbitImageRef}
 						className={`w-full max-w-[300px] sm:max-w-[500px] md:max-w-[1000px] ${
@@ -70,7 +70,7 @@ export default function Orbit() {
 					/>
 				</div>
 
-				<section className="mt-12 sm:mt-24 md:mt-48 mb-12 sm:mb-24 md:mb-36">
+				<section className="mt-20 mb-14 sm:mt-24 md:mt-48 sm:mb-24 md:mb-36">
 					<div className="flex flex-col md:flex-row items-center justify-around px-4 sm:px-6 md:px-8">
 						<article className="w-full md:w-1/3 mb-8 md:mb-0">
 							<h1 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-200">
@@ -96,7 +96,7 @@ export default function Orbit() {
 			</SvgBackground>
 
 			<SvgBackground>
-				<section className="mt-12 sm:mt-24 md:mt-72">
+				<section className="mt-20 sm:mt-24 md:mt-72">
 					<div className="flex flex-col md:flex-row items-center justify-center md:pl-36 px-4">
 						<EigenDaSvg />
 						<div
@@ -115,7 +115,7 @@ export default function Orbit() {
 								alt="Anime Girl"
 							/>
 						</div>
-						<article className="w-full md:w-1/3">
+						<article className="w-full mt-12 md:w-1/3">
 							<h1 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-200">
 								Powered by EigenDA
 							</h1>

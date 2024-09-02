@@ -32,7 +32,10 @@ export default function ChooseStable() {
 	}, []);
 
 	return (
-		<section ref={sectionRef} className="w-full text-center z-10 mt-24">
+		<section
+			ref={sectionRef}
+			className="w-full text-center h-fit z-10 mt-0 sm:mt-24"
+		>
 			<div
 				className={`transition-all duration-1000 ease-out delay-1200 ${
 					isVisible
@@ -40,12 +43,12 @@ export default function ChooseStable() {
 						: "opacity-0 translate-y-20"
 				}`}
 			>
-				<h1 className="text-3xl sm:text-7xl md:text-7xl p-2 font-light">
+				<h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl p-2 font-light">
 					Why <span className="italic font-semibold">choose</span>{" "}
 					StableChain
 				</h1>
 			</div>
-			<div className="flex flex-col sm:flex-row flex-wrap">
+			<div className="flex flex-col gap-20 sm:gap-0 sm:flex-row flex-wrap mt-8 mb-8 sm:mt-8">
 				{[
 					{ Icon: GasSvg, text: "Gas spent in stable coin" },
 					{ Icon: HedgeSvg, text: "Hedge Against Market Volatility" },
@@ -54,7 +57,7 @@ export default function ChooseStable() {
 				].map(({ Icon, text }, index) => (
 					<div
 						key={index}
-						className={`w-full sm:w-1/2 md:w-1/4 p-1 sm:p-6 md:p-10 transition-all duration-1000 ease-out ${
+						className={`w-full sm:w-1/2 lg:w-1/4 p-2 sm:p-6 transition-all duration-1000 ease-out ${
 							isVisible
 								? "opacity-100 translate-y-0"
 								: "opacity-0 translate-y-20"
@@ -63,8 +66,8 @@ export default function ChooseStable() {
 					>
 						<div className="flex flex-col items-center justify-center">
 							<Icon />
-							<div className="z-0 border border-neutral-300 relative top-20 sm:h-32 md:h-36 px-4 sm:px-6 md:px-9 sm:mt-8 flex items-center justify-center bg-white/20 rounded-xl backdrop-blur-lg text-white text-center">
-								<p className="text-base sm:text-lg font-medium py-4">
+							<div className="z-0 border border-neutral-300 relative top-16 sm:top-20 h-28 sm:h-32 md:h-36 px-4 sm:px-6 md:px-9 mt-4 sm:mt-8 flex items-center justify-center bg-white/20 rounded-xl backdrop-blur-lg text-white text-center">
+								<p className="text-sm sm:text-base md:text-lg font-medium py-2 sm:py-4">
 									{text}
 								</p>
 							</div>
