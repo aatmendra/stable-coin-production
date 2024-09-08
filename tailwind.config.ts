@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -21,6 +22,7 @@ const config: Config = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 				"custom-gradient":
 					"linear-gradient(212deg, rgba(10,10,10,1) 0%, rgba(73,125,0,1) 99%)",
+				"hero-image": "url('/public/Hero.webp')",
 			},
 		},
 	},

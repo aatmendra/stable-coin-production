@@ -6,10 +6,12 @@ import { FaMedium } from "react-icons/fa6";
 import { SiGitbook } from "react-icons/si";
 import StarsSvg from "@/public/Stable.svg";
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
+import ChooseStable from "./ChooseStable";
 
 export default function LastFooter() {
 	return (
-		<div className="relative mt:2 md:mt-32 p-10 sm:p-10 h-screen overflow-hidden">
+		<div className="relative mt:2 md:mt-32 p-10 sm:p-10 h-[170vh] overflow-hidden bg-[url('../public/Hero.webp')] bg-cover ">
+			<ChooseStable />
 			<div className="absolute bottom-0 w-[70%] right-[-35%] md:bottom-0 md:right-[-20%] z-10 md:w-[40%]">
 				<Image
 					src={animegirl1}
@@ -20,14 +22,14 @@ export default function LastFooter() {
 				/>
 			</div>
 
-			<div className="absolute top-[80%] md:top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex space-x-4 sm:space-x-6">
+			<div className="absolute top-[80%] md:top-3/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex space-x-4 sm:space-x-6">
 				<BsTwitterX className="text-white text-2xl sm:text-3xl" />
 				<FaTelegramPlane className="text-white text-2xl sm:text-3xl" />
 				<FaMedium className="text-white text-2xl sm:text-3xl" />
 				<SiGitbook className="text-white text-2xl sm:text-3xl" />
 			</div>
 
-			<article className="w-full sm:w-3/4 absolute mt-2 top-[60%] md:top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4 sm:px-0">
+			<article className="w-full sm:w-3/4 absolute mt-2 top-[70%] md:top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4 sm:px-0">
 				<div className="border cursor-pointer border-gray-200 flex items-center py-1 text-lg sm:text-xl font-light shadow-custom relative w-fit mx-auto mb-6 sm:mb-10 px-3 sm:px-4 bg-white/20 rounded-2xl backdrop-blur-lg text-gray-200">
 					Scroll UP
 					<MdKeyboardDoubleArrowUp className="text-xl sm:text-2xl" />
