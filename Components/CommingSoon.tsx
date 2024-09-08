@@ -16,12 +16,12 @@ export default function ComingSoon() {
 	}, []);
 
 	return (
-		<div className="relative w-full p-10">
+		<div className="relative w-full p-5">
 			<Image
 				src={image}
 				alt="Coming Soon"
 				layout="responsive"
-				className="w-full h-auto rounded-xl border border-solid border-neutral-800"
+				className="w-full h-auto rounded-xl border border-solid border-neutral-700"
 			/>
 
 			<div className="absolute bottom-4 sm:bottom-6 md:bottom-8 lg:bottom-10 left-0 right-0 text-center px-4">

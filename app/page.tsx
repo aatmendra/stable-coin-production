@@ -8,7 +8,7 @@ import Orbit from "@/Components/Orbit";
 export default function Home() {
 	return (
 		<>
-			<main className="flex flex-col items-center  justify-between ">
+			<main className="flex flex-col items-center gap-14  md:p-0 justify-between ">
 				<CommingSoon />
 				<EcosystemPartners title="Ecosystem Partners" />
 				<InfiniteScroll />

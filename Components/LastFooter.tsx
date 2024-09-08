@@ -24,10 +24,18 @@ export default function LastFooter() {
 			</div>
 
 			<div className="absolute top-[90%] md:top-[80%]  left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex space-x-4 sm:space-x-6">
-				<BsTwitterX className="text-white text-2xl sm:text-3xl" />
-				<FaTelegramPlane className="text-white text-2xl sm:text-3xl" />
-				<FaMedium className="text-white text-2xl sm:text-3xl" />
-				<SiGitbook className="text-white text-2xl sm:text-3xl" />
+				<a href="">
+					<BsTwitterX className="text-white text-2xl sm:text-3xl" />
+				</a>
+				<a href="">
+					<FaTelegramPlane className="text-white text-2xl sm:text-3xl" />
+				</a>
+				<a href="">
+					<FaMedium className="text-white text-2xl sm:text-3xl" />
+				</a>
+				<a href="">
+					<SiGitbook className="text-white text-2xl sm:text-3xl" />
+				</a>
 			</div>
 
 			<article className="w-full sm:w-3/4 absolute mt-2 top-[80%] md:top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4 sm:px-0">
