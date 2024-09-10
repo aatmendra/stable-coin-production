@@ -2,11 +2,8 @@
 import { useEffect } from "react";
 import Image from "next/image";
 import image from "../public/Testnet.png";
-import { FaTelegramPlane } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
-import { FaMedium } from "react-icons/fa6";
-import { SiGitbook } from "react-icons/si";
 import { GiDiamonds } from "react-icons/gi";
+import { DockDemo } from "@/Components/DockDemo";
 
 export default function ComingSoon() {
 	useEffect(() => {
@@ -26,18 +23,7 @@ export default function ComingSoon() {
 
 			<div className="absolute bottom-4 sm:bottom-6 md:bottom-8 lg:bottom-10 left-0 right-0 text-center px-4">
 				<div className=" mb-2 md:mb-20 flex gap-7 justify-center">
-					<a className="text-2xl" href="">
-						<FaTelegramPlane />
-					</a>
-					<a className="text-2xl" href="">
-						<BsTwitterX />
-					</a>
-					<a className="text-2xl" href="">
-						<FaMedium />
-					</a>
-					<a className="text-2xl" href="">
-						<SiGitbook />
-					</a>
+					<DockDemo />
 				</div>
 
 				<p className="text-white text-lg p-10 sm:text-xl md:text-2xl font-light">

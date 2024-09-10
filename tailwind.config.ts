@@ -9,6 +9,32 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			animation: {
+				"spin-around":
+					"spin-around calc(var(--speed) * 2) infinite linear",
+				slide: "slide var(--speed) ease-in-out infinite alternate",
+			},
+			keyframes: {
+				"spin-around": {
+					"0%": {
+						transform: "translateZ(0) rotate(0)",
+					},
+					"15%, 35%": {
+						transform: "translateZ(0) rotate(90deg)",
+					},
+					"65%, 85%": {
+						transform: "translateZ(0) rotate(270deg)",
+					},
+					"100%": {
+						transform: "translateZ(0) rotate(360deg)",
+					},
+				},
+				slide: {
+					to: {
+						transform: "translate(calc(100cqw - 100%), 0)",
+					},
+				},
+			},
 			boxShadow: {
 				custom: "rgba(255, 255, 255, 0.1) 0px 54px 55px, rgba(255, 255, 255, 0.08) 0px -12px 30px, rgba(255, 255, 255, 0.08) 0px 4px 6px, rgba(255, 255, 255, 0.1) 0px 12px 13px, rgba(255, 255, 255, 0.05) 0px -3px 5px",
 			},
