@@ -13,7 +13,7 @@ export default function LastFooter() {
 		<div className="relative mt:2 md:mt-32 p-10 sm:p-10 h-[200vh] sm:h-[170vh] overflow-hidden bg-[url('../public/Hero.webp')] bg-cover bg-center">
 			<ChooseStable />
 
-			<div className="absolute bottom-0 w-[70%] right-[-35%] md:bottom-0 md:right-[-20%] z-10 md:w-[40%]">
+			<div className="absolute bottom-0 w-[70%] right-[-35%] md:bottom-0 md:right-[-15%] z-10 md:w-[40%]">
 				<Image
 					src={animegirl1}
 					alt="Anime girl"
@@ -53,7 +53,7 @@ export default function LastFooter() {
 				</p>
 			</article>
 
-			<section className="absolute bottom-10 sm:bottom-20 flex items-center justify-around left-1/2 transform -translate-x-1/2 px-3 sm:px-5 py-2 sm:py-2.5 text-base sm:text-xl bg-[#454545] text-center border border-solid border-gray-300 text-white rounded-[33px] w-[90%] sm:w-auto">
+			<section className="absolute bottom-10 sm:bottom-20 z-30 flex items-center justify-around left-1/2 transform -translate-x-1/2 px-3 sm:px-5 py-2 sm:py-2.5 text-base sm:text-xl bg-[#454545] text-center border border-solid border-gray-300 text-white rounded-[33px] w-[90%] sm:w-auto">
 				<Image
 					src={StarsSvg}
 					alt="logo"
