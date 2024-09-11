@@ -41,7 +41,7 @@ export default function HeroComingSoon() {
 							className="absolute bottom-1/3 left-[20%] w-[60%]"
 						/>
 					</div>
-					<div className=" absolute bottom-2 left-1 md:left-3  backdrop-blur-md w-[98%] shadow-2xl shadow-gray-800 rounded-xl h-[38%]">
+					<div className=" absolute bottom-[2px] left-[1px] md:left-3  backdrop-blur-md w-[98%] shadow-2xl shadow-gray-800 rounded-xl h-[38%]">
 						<DockDemo />
 
 						<div className="text-center w-full absolute mb-[15%] md:mb-[10%] bottom-0">
