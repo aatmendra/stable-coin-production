@@ -44,7 +44,7 @@ export default function HeroComingSoon() {
 					<div className=" absolute bottom-[2px] left-[1px] md:left-3  backdrop-blur-md w-[98%] shadow-2xl shadow-gray-800 rounded-xl h-[38%]">
 						<DockDemo />
 
-						<div className="text-center w-full absolute xs:mb-[10%] sms:mb-[15%] md:mb-[10%] bottom-0">
+						<div className="text-center w-full absolute xs:mb-[10%] sms:mb-[15%] md:mb-[15%] bottom-0 top-3 md:top-16 md:mt-20">
 							<p className="text-white text-base sm:text-xl md:text-2xl font-light">
 								Looking to build on StableChain?{" "}
 								<u className="underline">
