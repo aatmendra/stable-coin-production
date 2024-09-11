@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function LastFooter() {
 	return (
-		<div className="relative mt:2 md:mt-40 p-10 sm:p-10 h-[200vh] sm:h-[170vh] overflow-hidden bg-[url('../public/Hero.webp')] bg-cover bg-center">
+		<div className="relative mt-10 md:mt-40 p-10 sm:p-10 h-[200vh] sm:h-[170vh] overflow-hidden bg-[url('../public/Hero.webp')] bg-cover bg-center">
 			<ChooseStable />
 
 			<div className="absolute bottom-0 w-[70%] right-[-35%] md:bottom-0 md:right-[-15%] z-10 md:w-[40%]">
@@ -30,7 +30,7 @@ export default function LastFooter() {
 					Scroll UP
 					<MdKeyboardDoubleArrowUp className="text-xl sm:text-2xl" />
 				</div>
-				<h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4">
+				<h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 text-gray-100">
 					STABLECHAIN
 				</h1>
 
