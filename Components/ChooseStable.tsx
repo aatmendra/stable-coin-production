@@ -34,7 +34,7 @@ export default function ChooseStable() {
 	return (
 		<section
 			ref={sectionRef}
-			className="w-full text-center h-fit z-20 absolute md:mt-14 xs:mt-[120%]"
+			className="w-full text-center h-fit z-20 absolute md:mt-14 mt-[120%]"
 		>
 			<div
 				className={`transition-all duration-1000 ease-out delay-1200 ${
