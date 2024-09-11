@@ -1,4 +1,5 @@
 import ScalableHero from "@/Components/BuilderIo/ScalableComponents/ScalableHero";
+import ChooseStable from "@/Components/ChooseStable";
 import HeroComingSoon from "@/Components/Hero";
 import InfiniteScroll from "@/Components/InfiniteScroll";
 import LastFooter from "@/Components/LastFooter";
@@ -11,7 +12,7 @@ export default function Home() {
 			<main className="flex flex-col items-center gap-14  md:p-0 justify-between ">
 				<HeroComingSoon />
 
-				<ShimmerButton className="shadow-2xl">
+				<ShimmerButton className="shadow-2xl mt-16">
 					<span className="whitespace-pre-wrap text-center text-sm font-normal leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
 						Ecosystem Partners
 					</span>
@@ -20,6 +21,7 @@ export default function Home() {
 				<ScalableHero />
 				<Orbit />
 			</main>
+			<ChooseStable />
 			<LastFooter />
 		</>
 	);
