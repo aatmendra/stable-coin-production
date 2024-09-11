@@ -9,6 +9,10 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			screens: {
+				xs: { min: "320px" },
+				sms: { min: "430px" },
+			},
 			animation: {
 				"spin-around":
 					"spin-around calc(var(--speed) * 2) infinite linear",
