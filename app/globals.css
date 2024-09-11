@@ -19,7 +19,7 @@
 body {
 	color: rgb(var(--foreground-rgb));
 	background: black;
-	background-image: url("../public/Body.svg");
+	background-image: url("../public/bg.svg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

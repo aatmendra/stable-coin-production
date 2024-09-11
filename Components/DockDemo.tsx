@@ -12,17 +12,29 @@ export function DockDemo() {
 	return (
 		<div className="relative">
 			<Dock magnification={60} distance={100}>
-				<DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-					<Icons.gitHub className="size-full" />
+				<DockIcon
+					className="bg-black/10 dark:bg-white/10 p-3  "
+					link="https://sujansthadev.com.np/"
+				>
+					<Icons.telgram className="size-full" />
 				</DockIcon>
-				<DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-					<Icons.googleDrive className="size-full" />
+				<DockIcon
+					link="https://sujansthadev.com.np/"
+					className="bg-black/10 dark:bg-white/10 p-3"
+				>
+					<Icons.twitter className="size-full" />
 				</DockIcon>
-				<DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-					<Icons.notion className="size-full" />
+				<DockIcon
+					link="https://sujansthadev.com.np/"
+					className="bg-black/10 dark:bg-white/10 p-3"
+				>
+					<Icons.medium className="size-full" />
 				</DockIcon>
-				<DockIcon className="bg-black/10 dark:bg-white/10 p-3">
-					<Icons.whatsapp className="size-full" />
+				<DockIcon
+					link="https://sujansthadev.com.np/"
+					className="bg-black/10 dark:bg-white/10 p-3"
+				>
+					<Icons.gitbook className="size-full" />
 				</DockIcon>
 			</Dock>
 		</div>
@@ -30,8 +42,8 @@ export function DockDemo() {
 }
 
 const Icons = {
-	gitHub: (props: IconProps) => <FaTelegramPlane />,
-	notion: (props: IconProps) => <BsTwitterX />,
-	googleDrive: (props: IconProps) => <FaMedium />,
-	whatsapp: (props: IconProps) => <SiGitbook />,
+	telgram: (props: IconProps) => <FaTelegramPlane />,
+	twitter: (props: IconProps) => <BsTwitterX />,
+	medium: (props: IconProps) => <FaMedium />,
+	gitbook: (props: IconProps) => <SiGitbook />,
 };
