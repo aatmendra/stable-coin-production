@@ -5,6 +5,7 @@ import testnestext from "@/public/Frame.png";
 import { DockDemo } from "./DockDemo";
 import { GiDiamonds } from "react-icons/gi";
 import { useEffect } from "react";
+import StarsSvg from "@/public/Stable.svg";
 
 export default function HeroComingSoon() {
 	useEffect(() => {
@@ -13,7 +14,7 @@ export default function HeroComingSoon() {
 		});
 	}, []);
 	return (
-		<div className="h-/4 md:h-screen flex items-center justify-center w-full">
+		<div className="h-1/4 md:h-screen flex items-center justify-center w-full">
 			<div className="w-[80%] p-2 ">
 				<div className=" relative">
 					<Image
@@ -26,6 +27,13 @@ export default function HeroComingSoon() {
 					/>
 					<div>
 						<Image
+							src={StarsSvg}
+							height={1000}
+							width={1000}
+							alt="a"
+							className="absolute bottom-2/3 left-[45%] w-[13%]"
+						/>
+						<Image
 							src={testnestext}
 							height={1000}
 							width={1000}
@@ -33,12 +41,11 @@ export default function HeroComingSoon() {
 							className="absolute bottom-1/3 left-[20%] w-[60%]"
 						/>
 					</div>
-					<div className=" absolute bottom-2 left-3 backdrop-blur-md w-[98%] rounded-xl h-[38%]">
-						<div className=" mb-2 md:mb-20 flex gap-7 justify-center">
-							<DockDemo />
-						</div>
-						<div className="text-center w-full absolute mb-[10%] bottom-0">
-							<p className="text-white text-lg sm:text-xl md:text-2xl font-light">
+					<div className=" absolute bottom-2 left-1 md:left-3  backdrop-blur-md w-[98%] shadow-2xl shadow-gray-800 rounded-xl h-[38%]">
+						<DockDemo />
+
+						<div className="text-center w-full absolute mb-[15%] md:mb-[10%] bottom-0">
+							<p className="text-white text-base sm:text-xl md:text-2xl font-light">
 								Looking to build on StableChain?{" "}
 								<u className="underline">
 									<a
