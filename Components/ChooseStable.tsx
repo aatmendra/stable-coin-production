@@ -34,7 +34,7 @@ export default function ChooseStable() {
 	return (
 		<section
 			ref={sectionRef}
-			className="w-full text-center h-fit z-10 mt-32  sm:mt-2"
+			className="w-full text-center h-fit z-10 mt-11  sm:mt-2"
 		>
 			<div
 				className={`transition-all duration-1000 ease-out delay-1200 ${
@@ -43,7 +43,7 @@ export default function ChooseStable() {
 						: "opacity-0 translate-y-20"
 				}`}
 			>
-				<h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl p-2 font-light">
+				<h1 className="text-2xl text-gray-200 sm:text-3xl md:text-5xl lg:text-7xl p-2 font-light">
 					Why <span className="italic font-semibold">choose</span>{" "}
 					StableChain
 				</h1>
