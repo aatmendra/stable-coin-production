@@ -55,7 +55,7 @@ export default function Orbit() {
 	}, []);
 
 	return (
-		<div className="mt-12  mb-0 sm:mt-24 md:mt-48 md:mb-44">
+		<div className="mt-12  mb-0 sm:mt-24 md:mt-48 md:mb-[10%]">
 			<SvgBackground>
 				<div className="flex mb-28 sm:mb-20 items-center justify-center">
 					<Image

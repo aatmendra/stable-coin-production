@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function LastFooter() {
 	return (
-		<div className="relative mt-80 md:mt-48 p-1 sm:p-10 sms:h-[180vh] xs:h-[250vh]  md:h-[170vh] overflow-hidden bg-[url('../public/Hero.webp')] bg-cover bg-center">
+		<div className="relative mt-80 md:mt[15%] p-1 sm:p-10  sms:h-[180vh] xs:h-[250vh]  md:h-[200vh] overflow-hidden bg-[url('../public/Hero.webp')] bg-cover bg-center">
 			<div className="absolute bottom-0 w-[70%] right-[-35%] md:bottom-0 md:right-[-15%] z-10 md:w-[40%]">
 				<Image
 					src={animegirl1}
