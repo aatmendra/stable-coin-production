@@ -41,7 +41,16 @@ export default function HeroComingSoon() {
 							className="absolute bottom-1/3 left-[20%] w-[60%]"
 						/>
 					</div>
-					<div className=" absolute bottom-[2px] left-[1px] md:left-3  backdrop-blur-md w-[98%] shadow-2xl shadow-gray-800 rounded-xl h-[38%]">
+
+					<div
+						className="absolute bottom-[2px] w-full rounded-xl h-[40%]"
+						style={{
+							backdropFilter: "blur(20px)",
+							background: "rgba(255, 255, 255, 0.1)", // Glassmorphism transparent background
+							boxShadow: "0 -20px 30px rgba(255, 255, 255, 0.2)", // Blurred shadow on top
+							borderRadius: "16px", // Smooth rounded corners
+						}}
+					>
 						<DockDemo />
 
 						<div className="text-center w-full absolute xs:mb-[10%] sms:mb-[15%] md:mb-[15%] bottom-0 top-3 md:top-16 md:mt-20">
