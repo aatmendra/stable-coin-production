@@ -12,7 +12,7 @@ export default function ImageGrid() {
 					<Image
 						src={yields}
 						alt="Scalable infrastructure visualization"
-						className="object-contain grow w-full rounded-2xl aspect-[2.09] max-md:mt-4 max-md:max-w-full border border-solid border-neutral-600"
+						className="object-contain grow w-full rounded-2xl aspect-[2.09] max-md:mt-4 max-md:max-w-full border border-solid border-neutral-800"
 						width={1000}
 						height={1000}
 					/>
@@ -36,7 +36,7 @@ export default function ImageGrid() {
 							width={1000}
 							height={1000}
 							alt="Decentralized application showcase"
-							className="object-contain grow w-full rounded-2xl aspect-[1.68] max-md:mt-4 max-md:max-w-full border border-solid border-neutral-600"
+							className="object-contain grow w-full rounded-2xl aspect-[1.68] max-md:mt-4 max-md:max-w-full border border-solid border-neutral-800"
 						/>
 						<div className="absolute bottom-10  w-full text-start px-5">
 							<p className="text-2xl text-gray-200">
@@ -55,7 +55,7 @@ export default function ImageGrid() {
 							alt="Protocol value store representation"
 							width={1000}
 							height={1000}
-							className="object-contain grow w-full rounded-2xl aspect-[1.68] max-md:mt-4 max-md:max-w-full border border-solid border-neutral-600"
+							className="object-contain grow w-full rounded-2xl aspect-[1.68] max-md:mt-4 max-md:max-w-full border border-solid border-neutral-800"
 						/>
 						<div className="absolute bottom-10  w-full text-start px-5">
 							<p className="text-2xl text-gray-200">
