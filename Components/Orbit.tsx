@@ -101,7 +101,7 @@ export default function Orbit() {
 						<EigenDaSvg />
 						<div
 							ref={animeGirlRef}
-							className={`h-fit hidden md:flex md:w-fit relative bottom-72 left-6 ${
+							className={`h-fit hidden md:flex md:w-fit relative bottom-60 left-6 ${
 								isAnimeGirlVisible
 									? styles.fadeInUp
 									: "opacity-0"
