@@ -96,7 +96,7 @@ export default function Orbit() {
 			</SvgBackground>
 
 			<SvgBackground>
-				<section className="mt-20 md:mt-48">
+				<section className="mt-20 px-0 md:px-20  md:mt-48">
 					<div className="flex flex-col md:flex-row items-center justify-center md:pl-36 px-4">
 						<EigenDaSvg />
 						<div
@@ -115,7 +115,7 @@ export default function Orbit() {
 								alt="Anime Girl"
 							/>
 						</div>
-						<article className="w-full mt-12 px-0 md:px-20 md:w-1/3">
+						<article className="w-full mt-12 px-0 md:px-5 md:w-1/3">
 							<h1 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-200">
 								Powered by EigenDA
 							</h1>
