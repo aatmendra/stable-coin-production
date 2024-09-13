@@ -115,7 +115,7 @@ export default function Orbit() {
 								alt="Anime Girl"
 							/>
 						</div>
-						<article className="w-full mt-12 px-10 md:w-1/3">
+						<article className="w-full mt-12 px-0 md:px-20 md:w-1/3">
 							<h1 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-200">
 								Powered by EigenDA
 							</h1>
