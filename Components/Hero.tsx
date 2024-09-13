@@ -14,7 +14,7 @@ export default function HeroComingSoon() {
 		});
 	}, []);
 	return (
-		<div className="h-1/4 md:h-screen flex items-center justify-center w-full">
+		<div className="h-1/4 mb-20 md:h-screen flex items-center justify-center w-full">
 			<div className="w-[95%] md:w-[90%] p-2 ">
 				<div className=" relative">
 					<Image
