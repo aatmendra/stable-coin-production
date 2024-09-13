@@ -128,7 +128,7 @@ export default function Orbit() {
 					</div>
 				</section>
 
-				<section className="mt-12 sm:mt-24 md:mt-32">
+				<section className="mt-12 md:mt-5">
 					<div className="flex flex-col md:flex-row-reverse items-center justify-around px-4 sm:px-6 md:px-8">
 						<SUSDSvg />
 						<article className="w-full md:w-1/3">
