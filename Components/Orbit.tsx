@@ -96,7 +96,7 @@ export default function Orbit() {
 			</SvgBackground>
 
 			<SvgBackground>
-				<section className="mt-20 sm:mt-24 md:mt-72">
+				<section className="mt-20 md:mt-48">
 					<div className="flex flex-col md:flex-row items-center justify-center md:pl-36 px-4">
 						<EigenDaSvg />
 						<div
